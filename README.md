@@ -124,3 +124,80 @@ code .
 
 
 add plugin, add README.md
+
+------------13:00-----------
+under github/bitbucket
++
+Repository
+
+ucom_nodejs_20200309
+
+
+cd c:\Users\Admin\node_JS14hr_Mar_2020
+
+git remote add origin https://YOUR_USERNAME@bitbucket.org/YOUR_USERNAME/YOUR_PROJECT_NAME.git
+git push -u origin master
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+### `node.JS`,`npm`,`javascript`
+
+npm config list
+
+C:\Users\Admin\AppData\Roaming\npm
+
+
+npm config get prefix
+
+npm install npm --global
+npm --version
+
+### update npm packages
+```
+npm install npm --global
+npm --version
+```
+
+npm list --global
+npm list --global --depth=0
+
+npm install uglify-js --global
+npm list --global --depth=0
+
+npx create-react-app lab3_simple_react
+
+cd c:\Users\Admin\node_JS14hr_Mar_2020\lab3_simple_react
+
+check-in code sofar:
+practice npm list
+
+commit
+push
+~~~~~~~~~~~~~~~~~~~~~~~~~
+create directory
+lab4_uglifyjs
+
+
+uglify_demo1.js
+~~~~~~~~~~~~~~~~~~~~~~~~~
+var object1 = {
+    "foo":250,
+    "bar":300
+}
+object1.foo += object1.bar;
+console.log(object1.foo);
+
+cd c:\Users\Admin\node_JS14hr_Mar_2020\lab4_uglifyjs
+
+node uglify_demo1.js
+
+
+uglifyjs uglify_demo1.js -c -m --mangle-props
+
+copy/paste to uglify_demo2.js
+
+node uglify_demo2.js
+
+uglifyjs uglify_demo1.js -c -m --mangle-props > demo3.js
+
+https://webpack.js.org/
