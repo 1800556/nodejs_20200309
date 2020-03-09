@@ -201,3 +201,78 @@ node uglify_demo2.js
 uglifyjs uglify_demo1.js -c -m --mangle-props > demo3.js
 
 https://webpack.js.org/
+
+terminal.integrated.shell.windows
+
+{
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe"
+}
+bottom left GEAR
+Settings
+Text Editor
+Font
+
+'Source CodeVariable', 'Courier New', monospace
+18
+bold
+
+npm search tensorflow
+npm search vaadin
+
+npm cache verify
+
+
+npm install -g --unsafe-perm node-red
+
+cd c:\Users\Admin\.node-red
+
+npm install node-red-node-arduino
+node-red
+
+mkdir lab5_npm
+cd lab5_npm
+
+npm init --yes
+
+npm install request --save
+
+copy .gitignore from lab3 to lab5
+
+tryme.js
+
+request('http://www.uuu.com.tw', function(){})
+
+var request = require('request');
+
+request('http://www.uuu.com.tw', function (error, response, body) {
+    if (!error && response.statusCode==200) {
+        console.log(body)
+    } else {
+        console.log(error)
+        console.log(response.statusCode)
+        console.log(body)
+    }
+})
+
+npm uninstall request
+npm install request --save
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{
+    "editor.fontFamily": "'Source Code Variable','Courier New', monospace",
+    "editor.fontSize": 24
+}
+
+
+
+lab6_simple_debug.js
+
+
+var message1 = 'hello world';
+var message2 = "hello world";
+var message3 = 'h';
+var message4 = "h";
+console.log(message1);
+console.log(message2);
+console.log(message3);
+console.log(message4);
