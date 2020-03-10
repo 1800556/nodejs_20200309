@@ -290,7 +290,7 @@ HybridCar.prototype.batteryLimit = 50000
 HybridCar.prototype.totalLength = function () {
     return this.fuel * 21 + this.batteryLimit / 500
 }
-
+/*
 var myCar1 = new Car()
 console.log(typeof myCar1, typeof Car)
 myCar1.setSpeed(60)
@@ -306,3 +306,4 @@ console.log(myCar2.number + " has speed:" + myCar2.speed)
 console.log(myCar2.isOverSpeed(100), myCar2.isOverSpeed(50))
 myCar2.fuel = 70
 console.log("myCar2 total length=",myCar2.totalLength())
+*/
