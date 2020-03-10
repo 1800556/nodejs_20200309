@@ -1,4 +1,5 @@
-/*console.log(x2)
+/*
+console.log(x2)
 //console.log(x1)
 x1 = 'hello'
 var x2 = 'world'
